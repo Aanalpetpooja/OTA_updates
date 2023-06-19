@@ -3,5 +3,6 @@ on:
         push:
         branches:
           - main
-              name: Cache
- uses: actions/cache@v1.2.1
+steps:
+  - name: Cache
+     uses: actions/cache@v1.2.1
