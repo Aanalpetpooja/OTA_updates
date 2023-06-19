@@ -1,7 +1,7 @@
 name: CI
-       on:
+on:
         push:
         branches:
           - main
-        - name: Cache
-          uses: actions/cache@v1.2.1
+              name: Cache
+ uses: actions/cache@v1.2.1
