@@ -6,3 +6,6 @@ on:
 jobs:
   - name: Cache
     uses: actions/cache@v1.2.1
+  - name: Delete Branch Cache Action
+    uses: snnaplab/delete-branch-cache-action@v1.0.0
+
